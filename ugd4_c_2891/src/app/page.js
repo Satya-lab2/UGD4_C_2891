@@ -112,7 +112,6 @@ export default function Home() {
     <div className="min-h-screen flex flex-col items-center justify-center 
     bg-gradient-to-br from-black via-red-900 to-black p-6 text-white">
 
-      {/* TITLE */}
       <h1 className="text-5xl font-extrabold mb-6 flex gap-3 items-center">
         <GiCardJoker className="text-yellow-400 text-5xl"/>
         <span className="bg-gradient-to-r from-yellow-200 via-pink-400 to-purple-400 bg-clip-text text-transparent">
