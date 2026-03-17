@@ -44,7 +44,7 @@ function ScoreBoard({ moves, matchedCount, totalPairs, time, onReset, onShuffle 
       {isGameComplete && (
         <div className="bg-yellow-400/20 border border-yellow-400 px-6 py-4 rounded-2xl mb-6">
           <p className="text-yellow-300 text-xl font-bold">
-            🎉 Selesai dalam {formattedTime} dengan {moves} percobaan!
+            🎉 Selamat! Selesai dalam {formattedTime} dengan {moves} percobaan!
           </p>
         </div>
       )}
